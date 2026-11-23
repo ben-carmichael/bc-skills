@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## What This Is
 
-A collection of Claude Code skills for development workflows, distributed two ways: as a Claude Code plugin (`bc-skills`), and as editable files via `npx skills@latest add ben-carmichael/skills`.
+A collection of Claude Code skills for development workflows, distributed two ways: as a Claude Code plugin (`bc-skills`), and as editable files via `npx skills@latest add ben-carmichael/bc-skills`.
 
 ## Structure
 
@@ -50,8 +50,8 @@ Add an argument after the command if the skill accepts one. Claude will load the
 
 Two paths, kept in sync:
 
-- **Claude Code plugin**: add this repo's marketplace once with `/plugin marketplace add ben-carmichael/skills`, then `claude plugins install bc-skills` (or `/plugin install bc-skills`). Not listed in Claude Code's official marketplace — this is a self-hosted one, so the marketplace-add step is required first.
-- **[`skills` CLI](https://github.com/vercel-labs/skills)**: `npx skills@latest add ben-carmichael/skills` writes editable copies into the user's project.
+- **Claude Code plugin**: add this repo's marketplace once with `/plugin marketplace add ben-carmichael/bc-skills`, then `claude plugins install bc-skills` (or `/plugin install bc-skills`). Not listed in Claude Code's official marketplace — this is a self-hosted one, so the marketplace-add step is required first.
+- **[`skills` CLI](https://github.com/vercel-labs/skills)**: `npx skills@latest add ben-carmichael/bc-skills` writes editable copies into the user's project.
 
 Both read directly from `skills/<category>/<skill-name>/SKILL.md` — no build step, no separate publish artifact.
 
@@ -59,7 +59,7 @@ Both read directly from `skills/<category>/<skill-name>/SKILL.md` — no build s
 
 ### Issue tracker
 
-Issues live in GitHub Issues for `ben-carmichael/skills`, via the `gh` CLI. See `docs/agents/issue-tracker.md`.
+Issues live in GitHub Issues for `ben-carmichael/bc-skills`, via the `gh` CLI. See `docs/agents/issue-tracker.md`.
 
 ### Domain docs
 

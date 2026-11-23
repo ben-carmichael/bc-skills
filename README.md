@@ -12,14 +12,14 @@ Two ways in. **The Claude Code plugin** installs the whole set as a managed, rea
 Add the marketplace once, then install. From outside a session:
 
 ```bash
-claude plugin marketplace add ben-carmichael/skills
+claude plugin marketplace add ben-carmichael/bc-skills
 claude plugin install bc-skills
 ```
 
 Or, from inside a session:
 
 ```
-/plugin marketplace add ben-carmichael/skills
+/plugin marketplace add ben-carmichael/bc-skills
 /plugin install bc-skills
 ```
 
@@ -33,19 +33,19 @@ Commands are namespaced, e.g. `/bc-skills:todo`.
 Copies skill files into your project as ordinary files you own and can edit:
 
 ```bash
-npx skills@latest add ben-carmichael/skills
+npx skills@latest add ben-carmichael/bc-skills
 ```
 
 Install specific skills:
 
 ```bash
-npx skills@latest add ben-carmichael/skills --skill todo
+npx skills@latest add ben-carmichael/bc-skills --skill todo
 ```
 
 Install all available skills:
 
 ```bash
-npx skills@latest add ben-carmichael/skills --skill "*"
+npx skills@latest add ben-carmichael/bc-skills --skill "*"
 ```
 
 ##### List
